@@ -18,13 +18,13 @@ class Stack {
 class Queue {
   constructor() {
     this.queue = new Stack();
-    // now we make this queue array but we will deal with it lika a stack one (LIFO)
+    // now we make this queue array but we will deal with it like a stack one (LIFO)
   }
   enqueue(item) {
     this.queue.push(item);
   }
   dequeue() {
-    // imagin we have a three bags in bag(named queue) and we want to remove the last ong
+    // imagin we have a three bags in bag(named queue) and we want to remove the last one
     // we will pick the first and put it somewhere(i named it tempStack)
     // and pick the second and put it in (tempStack) and remove the third one
     // now we will go to tempStack and bring bags back (-_^)

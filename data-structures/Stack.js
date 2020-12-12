@@ -18,6 +18,9 @@ class Stack {
     this.top--;
     return this.stack.pop();
   }
+  splice(index) {
+    this.stack.splice(index, 1);
+  }
   peek() {
     return this.stack[this.top];
     // this will return the last in the array which will pop next or make what you want with
